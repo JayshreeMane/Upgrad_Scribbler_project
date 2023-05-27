@@ -1,0 +1,149 @@
+/*Sign Up modal css*/
+.signupmodal{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border-radius: 4px;
+    position:absolute;
+    padding: 7px 7px;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ 
+    z-index: 1;
+    visibility: hidden;
+}
+.signupform{
+    flex-direction: row;
+    align-items: center;
+}
+
+.signupform a{
+    text-decoration: none;
+    float: right;
+}
+.signupform.closeicon{
+     position:absolute; 
+    color: rgba(128,128,128, 0.4);
+    font-size: 20px;
+    height: 20px;
+    float: right;
+    
+
+    
+}
+.signupform h4{
+    display: inline;
+    color: gray;
+}
+.signupform hr,input,label{
+    color: gray;
+}
+.signupform input{
+    width: 95%;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    padding:  4px;
+    border-radius: 2px;
+    border: none;
+    background-color:rgba(128,128,128, 0.4);
+}
+
+.signupform label{
+    margin-bottom: 9px;
+    margin-top: 30px;
+}
+.signup-btn{
+    border: none;
+    border-radius: 2px;
+    background-color:green;
+    color: white;
+   width: 98%;
+   height: 30px;
+   margin-top: 15px;
+   cursor: pointer;
+}
+.signup-btn :hover{
+    cursor: pointer;
+}
+
+/* Sign In modal css*/
+.signinmodal{
+    height: 250px;
+    width: 300px;
+    background-color: white;
+    border-radius: 4px;
+    position:absolute;
+    padding: 7px 7px;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: block;
+    z-index: 0;
+    visibility: hidden;
+    align-items: center;
+    justify-content: space-between;
+}
+.signinform{
+    flex-direction: row;
+    align-items: center;
+}
+
+.signinform a{
+    text-decoration: none;
+    float: right;
+    
+}
+.signinform span{
+    float:inherit;
+}
+.signinform.closeicon{
+     position:absolute; 
+    color: rgba(128,128,128, 0.4);
+    font-size: 20px;
+    height: 20px;
+    float: right;
+    
+
+    
+}
+.signin a{
+    color: blue;
+    text-decoration: none;
+}
+.signinform h4{
+    display: inline;
+    color: gray;
+}
+.signinform hr,input,label{
+    color: gray;
+}
+.signinform input{
+    width: 95%;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    padding:  4px;
+    border-radius: 2px;
+    border: none;
+    background-color:rgba(128,128,128, 0.4);
+}
+
+.signinform label{
+    margin-bottom: 9px;
+    margin-top: 30px;
+}
+.signin-btn{
+    border: none;
+    border-radius: 2px;
+    background-color:green;
+    color: white;
+   width: 98%;
+   height: 30px;
+   margin-top: 15px;
+   cursor: pointer;
+}
+.signin-btn :hover{
+    cursor: pointer;
+}

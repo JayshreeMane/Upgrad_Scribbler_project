@@ -1,0 +1,295 @@
+#main-container{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+#firstdiv{
+    left: 20%;
+    right:20%;
+    height: 300px;
+    width: 400px;
+  /*  border: 1px solid black;*/
+}
+#title{
+text-align: center;
+}
+
+#name{
+    display: inline-block;
+}
+#edit-icon{
+    float: right;
+    left: 40%;
+
+}
+#edit{
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+#edit:hover{
+    cursor: pointer;
+}
+#paragraph{
+   border: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 10px;
+    /* margin-left: 3%;
+    margin-right: 3%; */
+}
+#like-btn{
+    background-color: red;
+    color: white;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ font-size:16px;
+ border: none;
+}
+#like-btn:hover{
+    cursor: pointer;
+}
+#commentarea{
+width: 80%;
+}
+ #commentarea :focus{
+    border-color: blue;
+  
+}
+#comment-btn{
+ background-color: red;
+ color: white;
+ font-size: 16px;
+ border: none;
+ 
+}
+#comment-btn:hover{
+    cursor: pointer;
+}
+.allcommpara{
+   margin-top:  10px 10px;
+  height:fit-content;
+  text-align:justify;
+    border: 5px solid gray;
+    border-left-width: 2px;
+    border-right-width: 2px;
+}
+.pdiv{
+    border: 1px solid gray;
+    border-top-width: 2px;
+   border-bottom-width: 4px;
+
+}
+.p-style{
+    display:"block";
+   margin:" 10px 10px";
+  color:"black";
+   padding:"4px";
+ /*  border: 1px solid gray;*/
+
+   border-left-width: 1px;
+   border-right-width: 1px;
+
+
+}
+#liketext{
+    font-size: 12px;
+    color:gray;
+    
+}
+#liketext:hover{
+    cursor: pointer;
+}
+.fa fa-thumps-up{
+    color: white;
+}
+
+
+/*header container*/
+.headercontainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+  justify-content: space-between;
+}
+.logo{
+
+    font-family: 'Montez', cursive;
+    color:blue;
+    font-size: 25px;
+}
+.logo-subheading{
+font-family: 'Ubuntu Mono' ,monospace ;
+color: blueviolet;
+}
+
+.header-button{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 6px 6px;
+    cursor: pointer;
+}
+.header-button:hover {
+    background-color: aqua;
+    color: black;
+}
+
+/*Sign Up modal css*/
+.signupmodal{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 4px;
+    position:absolute;
+    padding: 7px 7px;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    z-index: 0;
+    visibility: hidden;
+}
+.signupform{
+    flex-direction: row;
+    align-items: center;
+}
+
+.signupform a{
+    text-decoration: none;
+    float: right;
+}
+.signupform.closeicon{
+     position:absolute; 
+    color: rgba(128,128,128, 0.4);
+    font-size: 20px;
+    height: 20px;
+    float: right;
+    
+
+    
+}
+.signupform h4{
+    display: inline;
+    color: gray;
+}
+.signupform hr,input,label{
+    color: gray;
+}
+.signupform input{
+    width: 95%;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    padding:  4px;
+    border-radius: 2px;
+    border: none;
+    background-color:rgba(128,128,128, 0.4);
+}
+
+.signupform label{
+    margin-bottom: 9px;
+    margin-top: 30px;
+}
+.signup-btn{
+    border: none;
+    border-radius: 2px;
+    background-color:green;
+    color: white;
+   width: 98%;
+   height: 30px;
+   margin-top: 15px;
+   cursor: pointer;
+}
+.signup-btn :hover{
+    cursor: pointer;
+}
+
+/* Sign In modal css*/
+.signinmodal{
+    height: 250px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 4px;
+    position:absolute;
+    padding: 7px 7px;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: block;
+    z-index: 0;
+    visibility: hidden;
+    align-items: center;
+    justify-content: space-between;
+}
+.signinform{
+    flex-direction: row;
+    align-items: center;
+}
+
+.signinform a{
+    text-decoration: none;
+    float: right;
+    
+}
+.signinform span{
+    float:inherit;
+}
+.signinform.closeicon{
+     position:absolute; 
+    color: rgba(128,128,128, 0.4);
+    font-size: 20px;
+    height: 20px;
+    float: right;
+    
+
+    
+}
+.signin a{
+    color: blue;
+    text-decoration: none;
+}
+.signinform h4{
+    display: inline;
+    color: gray;
+}
+.signinform hr,input,label{
+    color: gray;
+}
+.signinform input{
+    width: 95%;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    padding:  4px;
+    border-radius: 2px;
+    border: none;
+    background-color:rgba(128,128,128, 0.4);
+}
+
+.signinform label{
+    margin-bottom: 9px;
+    margin-top: 30px;
+}
+.signin-btn{
+    border: none;
+    border-radius: 2px;
+    background-color:green;
+    color: white;
+   width: 98%;
+   height: 30px;
+   margin-top: 15px;
+   cursor: pointer;
+}
+.signin-btn :hover{
+    cursor: pointer;
+}
+#upbtn{
+    color: green;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    
+}

@@ -1,0 +1,167 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-image: url("../images/background.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+      height: 100vh;
+  
+}
+.headercontainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+  justify-content: space-between;
+}
+.logo{
+
+    font-family: 'Montez', cursive;
+    color: blue;
+    font-size: 25px;
+}
+.logo-subheading{
+font-family: 'Ubuntu Mono' ,monospace ;
+color: purple;
+}
+
+.header-button{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 6px 6px;
+    cursor: pointer;
+}
+.header-button:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.post-button-container{
+    align-items: center;
+    margin-top: 20%;
+    margin-left: 50%;
+}
+.post-button{
+    background-color: rgb(238, 238, 15);
+    border: none;
+    color: black;
+    padding: 6px 6px;
+    cursor: pointer;
+}
+.post-button:hover{
+    color: white;
+    background-color: blueviolet;
+}
+/*post modal*/
+.modal{
+  transform: translate(0%,-50%);
+}
+.modal-content{
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 27%;
+  }
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .log-in{
+    padding: 5px;
+  }
+  .input-grp{
+    padding: 5px;
+    font-size: 19px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+  }
+   
+  .input-grp input{
+    border: none;
+    font-size: 18px;
+    margin-top: 10px;
+    background-color: #efeeee;
+    padding: 10px;
+  }
+  .log-in button{
+    background-color: rgb(74, 153, 74);
+    color: #efeeee;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 7px;
+  }
+.get{
+  font-size: 20px;
+  color: #8e8a8ace;
+  margin-top: 2px;
+}
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.2em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+} 
+
+
+.modal-content-text {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 90%;
+  
+}
+#myModal-2{
+  display: none;
+  top: 10px;
+  
+}
+#creat-but{
+ max-width: 10%;
+}
+#as-bt{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.cen{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+a{
+  text-decoration: none;
+  text-emphasis: none;
+  color: #000;
+}
+
+.contents{
+  padding-bottom: 10px;
+}
+
+
+
+

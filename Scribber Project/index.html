@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- TODO: Include Font Awesome file here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- TODO: Include Google Fonts file here -->
+   
+    <link href="https://fonts.googleapis.com/css2?family=Montez&family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <link  type="text/css" rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/common.css">
+    
+
+    </head>
+
+<body>
+    <!-- TODO: Include all your code for the header and home page here -->
+    
+     <div class="headercontainer">
+        <div class="logo-container">
+        <span class="logo">SciBBler </span>
+        <br>
+        <span class="logo-subheading">Explore , Imagine , Create</span>
+        </div>
+    
+        <div class="header_right">
+       <input class="header-button" type="button" onclick="showsignupmodal()" value="Sign Up">
+    
+       <input class="header-button" type="button" onclick="showsigninmodal()" value="Sign In"></div>
+      </div>   
+     </div>
+    <!-- Body starts-->
+    <div class="post-button-container">
+        <input class="post-button" type="button" onClick="location.href=('../html/postslist.html')" value="All Posts">
+    
+        <input class="post-button" type="button" id="create-post" onclick="showpostmodal()" value="Create Post"> 
+
+    </div>
+    <!--Body ends-->
+    
+<!--Sign up starts-->
+ <div class="signupmodal" id="sp">
+    <div class="signupform">
+        <form>
+  
+      <h4>Get Started</h4><a href="#" class="closeicon" > 
+        <i class="fa fa-times" aria-hidden="true"  onclick="hideform()" ></i></a>
+   <hr>
+   <label for="Name">Name</label><br>
+   <input type="text" name="name"  placeholder="Enter your name " required>
+
+   <label for="UserName">UserName</label><br>
+   <input type="text" name="UserName" placeholder="Enter your username "required>
+
+   <label for="Password">Password</label><br>
+   <input type="text" name="Password" placeholder="Enter your password" required>
+
+   <label for="confirmpassword">Confirm Password</label><br>
+   <input type="text" name="con-password" placeholder="Re-enter your password " required>
+
+   <button class="signup-btn" name="signup" value="Sign Up">Sign Up
+
+</button>
+</form></div>
+</div><!--sign up ends-->
+
+<!--sign in starts-->
+<div class="signinmodal" id="sin">
+    <div class="signinform">
+        <form>
+  
+      <h4>Welcome back</h4><a href="#" class="closeicon-signin" > 
+        <i class="fa fa-times" aria-hidden="true"  onclick="hideformsignIn()" ></i></a>
+   <hr>
+   
+
+   <label for="UserName">UserName</label><br>
+   <input type="text" name="UserName" placeholder="Enter your username "required>
+
+   <label for="Password">Password</label><br>
+   <input type="text" name="Password" placeholder="Enter your password" required>
+
+   
+
+   <button class="signin-btn" name="signin" value="Sign In">Sign In
+</button><br><br>
+<span>Not a Member?<a href="#" style="color: blue; text-decoration: underline;" onclick="showsignupmodal_insignIn()">Sign Up</a></span>
+</form></div>
+</div><!--sign in ends-->
+  
+<!--create post modal starts-->
+
+<div id="myModal-2" class="modal">
+<div class="modal-content-text">
+<span class="get">Pen Your Post</span>
+<span id="close3" onclick="closepostmodal()" class ='close'>&times;</span>
+<hr>
+   <div class="log-in">
+       <form action="" id="form">
+           <div class="input-grp">
+               <label>Title</label>
+               <input type="text" id="username-1" name="title" placeholder="Enter your title of your post" required>
+           </div>
+           <div class="input-grp">
+            <label class="contents">Contents</label>
+            <textarea name="" id="t-area" cols="30" rows="20">Type your post on this place...</textarea>
+           </div>
+           <div id="as-bt">
+           <button type="submit" id="creat-but"> Create</button>
+        </div>
+       </form>
+   </div>
+</div>
+</div>
+
+
+<script src="./js/index.js"></script>
+    
+
+<body>
+
+
+</html>
